@@ -2586,6 +2586,11 @@ h1{
 			border-radius: 0.25em;
 			display: block;
 		}
+		@media screen and (max-width: 800px) {
+		#logo img {
+			width: 100%;
+		}
+			}
 
 		.image.left, .image.right {
 			max-width: 40%;
