@@ -2591,6 +2591,10 @@ h1{
 			width: 100%;
 		}
 			}
+		@media screen and (max-width: 800px) {
+		.maps {
+			width: 100%;
+		}
 
 		.image.left, .image.right {
 			max-width: 40%;
