@@ -989,11 +989,7 @@ textarea {
 			display: block;
 			width: 100%;
 		}
-		@media screen and (max-width: 800px){
-				#soluciones {
-				display: inline;
-				position: fixed;
-			}
+		
 
 		.image.featured {
 			display: block;
@@ -1020,6 +1016,28 @@ textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+		.image.fit img {
+				display: block;
+				width: 100%;
+				border-radius: 5%;
+			}
+			@media screen and (max-width: 800px){
+				#soluciones {
+				display: inline;
+				position: fixed;
+			}
+
+
+			.content.box.style2 {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+		}
+
 
 /* List */
 
