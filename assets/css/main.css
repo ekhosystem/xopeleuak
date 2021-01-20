@@ -989,6 +989,11 @@ textarea {
 			display: block;
 			width: 100%;
 		}
+		@media screen and (max-width: 800px){
+				#soluciones {
+				display: inline;
+				position: fixed;
+			}
 
 		.image.featured {
 			display: block;
